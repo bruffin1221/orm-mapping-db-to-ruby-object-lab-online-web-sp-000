@@ -87,7 +87,7 @@ end
   end
 
   def self.drop_table
-    sql = "DROP TABLE IF EXIST students"
+    sql = "DROP TABLE IF EXISTS students"
     DB[:conn].execute(sql)
   end
 end
